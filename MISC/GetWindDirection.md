@@ -9,9 +9,9 @@ Vector3 GET_WIND_DIRECTION();
 ```
 
 ## Return value
-Returns a vector3 with x and y being the rotation in 2d space. Z is seemingly not used.
+Returns a vector3 with x and y being the rotation in 2d space. Z is not used.
 
-Gets the wind direction, use math.atan (or equivalent) to get the rotation in radians.
+Gets the wind direction, use math.atan (or equivalent) to get the rotation in radians. This native is used by the game for golf, hunting and the Caida Libre mission (native found in the following decompiled scripts: golf.c, golf_mp.c, hunting2.c, hunting_ambient.c and martin1.c).
 
 ## Examples
 ```lua
